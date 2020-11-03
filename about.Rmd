@@ -1,9 +1,67 @@
 ---
-title: "About"
+title: "Academic and Professional Experience"
 ---
 
-### About this site
+### Education
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+**Columbia University Mailman School of Public Health** <br>
+MPH in Health Policy and Management <br>
+Certificate: Applied Biostatistics <br>
+Anticipated Graduation Date: May 2021 <br><br>
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+**Northeastern University** <br>
+BS in Psychology <br>
+Concentration: Biological and Chemical Sciences <br>
+Minors: History and International Affairs <br><br>
+
+### Work Experience
+**Pfizer Inc.: Cambridge, MA** <br>
+Communications and Operations Analyst <br>
+May 2020 - September 2020 <br><br>
+**Boston Children's Hospital: Boston, MA** <br>
+Immunology and Allergy Department, Professor Talal Chatila <br>
+Research Assistant <br>
+August 2017 - August 2019 <br><br>
+**Xtuit Pharmaceuticals, Inc.: Waltham, MA** <br>
+Research Assistant, Drug Development <br>
+May 2016 - December 2016 <br><br>
+**Northeastern University Psychology Department: Boston, MA** <br>
+Interdisciplinary Affective Science Lab <br>
+Research Assistant <br>
+September 2015 - February 2016 <br><br>
+**NeuroElectronics Research Flanders: Leuven, Belgium** <br>
+Group Leader Karl Farrow <br>
+Research Assistant <br>
+July 2015 - December 2015 <br><br>
+**MIT McGovern Institute for Brain Research: Cambridge, MA** <br>
+PI Ki Ann Goosens <br>
+Research Assistant <br>
+May 2014 - December 2014<br><br>
+
+### Leadership Experience
+
+**Kappa Phi Lambda**<br>
+Fundraising Chair<br>
+Cultural Chair<br>
+Program Educator<br>
+Vice President<br>
+**Multicultural Greek Council**<br>
+Standards and Ethics Chair<br>
+**Pan-Asian American Council**<br>
+Representative<br>
+**Resident Student Association**<br>
+Programming Committee<br><br>
+
+### Skills
+
+**Technical:**
+
+* Stata
+* SAS
+* R
+* Microsoft Office Suite
+
+**Languages:**
+
+* English (native)
+* Mandarin (advanced)
