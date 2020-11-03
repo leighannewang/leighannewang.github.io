@@ -8,11 +8,11 @@ navbar:
     - text: "Dashboard"
       href: dashboard.html
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: mailto:leighannewang.gmail.com
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: http://github.com/leighannewang/
     - icon: fa-linkedin fa-lg
-      href: linkedin.com/leighanne-wang
+      href: http://linkedin.com/leighanne-wang
 output:
   html_document:
     theme: cosmo
