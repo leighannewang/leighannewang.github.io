@@ -12,7 +12,7 @@ navbar:
     - icon: fa-github fa-lg
       href: http://github.com/leighannewang/
     - icon: fa-linkedin fa-lg
-      href: http://linkedin.com/leighanne-wang
+      href: https://www.linkedin.com/in/leighanne-wang/
 output:
   html_document:
     theme: cosmo
