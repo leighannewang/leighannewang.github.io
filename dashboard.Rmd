@@ -1,0 +1,56 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(flexdashboard)
+```
+
+```{r}
+data("rest_inspec")
+
+rest_inspec =
+  rest_inspec %>%
+  filter(grade %in% c("A", "B", "C"), boro != "Missing") %>% 
+  mutate(boro = str_to_title(boro)) %>% view()
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+rest_inspec %>%
+  mutate(text_label = str_c("Score: ", score, "\nGrade: ", grade)) %>% 
+  plot_ly(
+    x = ~violation_code, y = ~score, type = "scatter", mode = "markers",
+    color = ~boro, text = ~text_label, alpha = 0.5,  colors = "viridis")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+rest_inspec %>% 
+  plot_ly(y = ~score, color = ~grade, type = "box", colors = "viridis")
+```
+
+### Chart C
+
+```{r}
+rest_inspec %>% 
+  count(boro) %>% 
+  mutate(boro = fct_reorder(boro, n)) %>% 
+  plot_ly(x = ~boro, y = ~n, color = ~boro, type = "bar", colors = "viridis")
+```
